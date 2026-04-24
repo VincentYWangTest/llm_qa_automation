@@ -4,7 +4,7 @@ from openai import OpenAI
 # 多模型配置（可自行扩展）
 MODEL_CONFIGS = {
     "deepseek": {
-        "api_key": os.getenv("DEEPSEEK_API_KEY", "sk-0d54f7daf08e47faa0a7d7c06293f028"),
+        "api_key": os.getenv("DEEPSEEK_API_KEY", "*"),
         "base_url": "https://api.deepseek.com",
         "model_name": "deepseek-chat"
     }
